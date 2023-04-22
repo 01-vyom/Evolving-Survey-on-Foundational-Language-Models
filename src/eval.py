@@ -260,7 +260,7 @@ def main():
             sentences = []
             if args.task_name == "boolq":
                 for question, context in zip(examples[sentence1_key], examples[sentence2_key]):
-                    input_text = f"boolq question: {question} context: {context}"
+                    input_text = f"boolq context: {context} question: {question}"
                     sentences.append(input_text)
             elif args.task_name == "rte":
                 for sentence1, sentence2 in zip(examples[sentence1_key], examples[sentence2_key]):
