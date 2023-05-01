@@ -5,7 +5,7 @@
 #SBATCH --account=eel6825
 #SBATCH --qos=eel6825
 #SBATCH --mail-type=ALL
-#SBATCH --mail-user=v.pathak@ufl.edu
+#SBATCH --mail-user=<username>@ufl.edu
 #SBATCH --nodes=1                    
 #SBATCH --ntasks=1                   
 #SBATCH --cpus-per-task=2          
@@ -32,12 +32,12 @@ for MODEL_NAME in "${model_names[@]}"
 do
 do
   python eval.py \
-  --model_name_or_path /blue/eel6825/v.pathak/experiments/results/$MODEL_NAME/$TASK_NAME/ \
+  --model_name_or_path /blue/eel6825/<username>/output/$MODEL_NAME/$TASK_NAME/ \
   --task_name $TASK_NAME \
   --max_length 512 \
   --per_device_eval_batch_size 16 \
   --seed 42 \
-  --output_dir /blue/eel6825/v.pathak/experiments/results/$MODEL_NAME/$TASK_NAME/
+  --output_dir /blue/eel6825/<username>/output/$MODEL_NAME/$TASK_NAME/
 done
 done
 # export TASK_NAME=record

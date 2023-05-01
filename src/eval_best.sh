@@ -5,7 +5,7 @@
 #SBATCH --account=eel6825
 #SBATCH --qos=eel6825
 #SBATCH --mail-type=ALL
-#SBATCH --mail-user=v.pathak@ufl.edu
+#SBATCH --mail-user=<username>@ufl.edu
 #SBATCH --nodes=1                    
 #SBATCH --ntasks=1                   
 #SBATCH --cpus-per-task=2          
@@ -30,24 +30,24 @@ declare -a task_names=(boolq wic wsc)
 for TASK_NAME in "${task_names[@]}"
 do   
   python eval.py \
-  --model_name_or_path /blue/eel6825/v.pathak/experiments/results/$MODEL_NAME/$TASK_NAME/ \
+  --model_name_or_path /blue/eel6825/<username>/output/$MODEL_NAME/$TASK_NAME/ \
   --task_name $TASK_NAME \
   --max_length 512 \
   --per_device_eval_batch_size 16 \
   --seed 42 \
-  --output_dir /blue/eel6825/v.pathak/experiments/results/$MODEL_NAME/$TASK_NAME/
+  --output_dir /blue/eel6825/<username>/output/$MODEL_NAME/$TASK_NAME/
 done
 export MODEL_NAME=t5
 declare -a task_names=(rte cb copa)
 for TASK_NAME in "${task_names[@]}"
 do   
   python eval.py \
-  --model_name_or_path /blue/eel6825/v.pathak/experiments/results/$MODEL_NAME/$TASK_NAME/ \
+  --model_name_or_path /blue/eel6825/<username>/output/$MODEL_NAME/$TASK_NAME/ \
   --task_name $TASK_NAME \
   --max_length 512 \
   --per_device_eval_batch_size 16 \
   --seed 42 \
-  --output_dir /blue/eel6825/v.pathak/experiments/results/$MODEL_NAME/$TASK_NAME/
+  --output_dir /blue/eel6825/<username>/output/$MODEL_NAME/$TASK_NAME/
 done
 # export TASK_NAME=record
 # export TASK_NAME=multirc

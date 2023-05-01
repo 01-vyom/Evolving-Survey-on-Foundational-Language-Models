@@ -5,7 +5,7 @@
 #SBATCH --account=eel6825
 #SBATCH --qos=eel6825
 #SBATCH --mail-type=ALL
-#SBATCH --mail-user=v.pathak@ufl.edu
+#SBATCH --mail-user=<username>@ufl.edu
 #SBATCH --nodes=1                    
 #SBATCH --ntasks=1                   
 #SBATCH --cpus-per-task=2          
@@ -38,7 +38,7 @@ do
   --seed 42 \
   --weight_decay 0.1 \
   --checkpointing_steps epoch \
-  --output_dir /blue/eel6825/v.pathak/experiments/results/$MODEL_NAME/$TASK_NAME/
+  --output_dir /blue/eel6825/<username>/output/$MODEL_NAME/$TASK_NAME/
 done
 # export TASK_NAME=record
 # export TASK_NAME=multirc
