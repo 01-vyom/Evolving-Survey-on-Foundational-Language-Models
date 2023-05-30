@@ -1,11 +1,11 @@
 # Preliminary Survey on Foundation Language Models
 
-### [Paper](https://github.com/uf-eel6825-sp23/final-project-code-01-vyom/blob/main/doc/Preliminary_Survey_on_Foundation_Language_Models.pdf) | [Slides](https://docs.google.com/presentation/d/1cuZVWwlQMdkUFz0OY3Rl6bq2NeZnun0WJsWCYAMGx6M/edit?usp=sharing) | [Video](https://youtu.be/A7ZRedh2nuE)
+### [Paper](https://github.com/01-vyom/Evolving-Survey-on-Foundational-Language-Models/blob/main/doc/Preliminary_Survey_on_Foundation_Language_Models.pdf) | [Slides](https://docs.google.com/presentation/d/1cuZVWwlQMdkUFz0OY3Rl6bq2NeZnun0WJsWCYAMGx6M/edit?usp=sharing) | [Video](https://youtu.be/A7ZRedh2nuE)
 
 ## Abstract
 Language models are essential components of natural language processing that can capture general representations of language from large-scale text corpora. In recent years, various language models have been proposed, ranging from shallow word embeddings to deep contextual encoders, with different pre-training tasks, training frameworks, adaptation methods, and evaluation benchmarks. The year 2022 saw a surge in the development of large generative models, referred to as "foundation models," that can perform multiple tasks by training on a general unlabeled dataset. However, there is a need for a comprehensive survey that can link these models and contrast their advantages and disadvantages. In this paper, we present a systematic survey of foundation language models that aims to connect various models based on multiple criteria, such as representation learning, model size, task capabilities, research questions, and practical task capabilities. We also conduct experiments on a subset of SuperGLUE tasks using six representative models from different architecture families and contrast their performance and efficiency. Moreover, we suggest some future directions that can be pursued to improve the robustness and comprehensiveness of this survey.
 ## About The Project
-The survey constitues of what aspects of languagels can be considered to differentiate them. We then go in detail for each aspect one by one, and discuss their respective sub-categories. We then, propose some prilimanry model catelogue talking about how they are dfferent from each other as well connected to each other based on pre-training task, architecture, model size, and other factors. Then, we perform a prilimanry evaluation on some of the few select models from the catelogue. We then, discuss the results and the future work. More details can be found in the [paper](https://github.com/uf-eel6825-sp23/final-project-code-01-vyom/blob/main/doc/Preliminary_Survey_on_Foundation_Language_Models.pdf). The dataset detail, and the results are provided in the following sections. After that, we provide the details about the system requirements, and the steps to reproduce the results.
+The survey constitues of what aspects of languagels can be considered to differentiate them. We then go in detail for each aspect one by one, and discuss their respective sub-categories. We then, propose some prilimanry model catelogue talking about how they are dfferent from each other as well connected to each other based on pre-training task, architecture, model size, and other factors. Then, we perform a prilimanry evaluation on some of the few select models from the catelogue. We then, discuss the results and the future work. More details can be found in the [paper](https://github.com/01-vyom/Evolving-Survey-on-Foundational-Language-Models/blob/main/doc/Preliminary_Survey_on_Foundation_Language_Models.pdf). The dataset detail, and the results are provided in the following sections. After that, we provide the details about the system requirements, and the steps to reproduce the results.
 ### Dataset Details
 
 The following table shows the details about each of the dataset used to train, and evaluate the models. Each dataset is a part of the SuperGLUE benchmark. The SuperGLUE benchmark is a collection of 9 different tasks that are used to evaluate the performance of language models. More details can be found in the SuperGLUE [paper](https://arxiv.org/abs/1905.00537).
@@ -177,7 +177,7 @@ Look at the `results` directory to see the results for every model on every task
 
 ## Roadmap
 
-Detailed roadmap on improvements for this can be found in the future work section of the [paper](https://github.com/uf-eel6825-sp23/final-project-code-01-vyom/blob/main/doc/Preliminary_Survey_on_Foundation_Language_Models.pdf).
+Detailed roadmap on improvements for this can be found in the future work section of the [paper](https://github.com/01-vyom/Evolving-Survey-on-Foundational-Language-Models/blob/main/doc/Preliminary_Survey_on_Foundation_Language_Models.pdf).
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -192,7 +192,7 @@ Contributions are what make the open source community such an amazing place to b
 
 [Vyom Pathak](https://01-vyom.github.io/) - [@stancosmos01](https://twitter.com/stancosmos01) - angerstick3@gmail.com
 
-Project Link: [https://github.com/uf-eel6825-sp23/final-project-code-01-vyom](https://github.com/uf-eel6825-sp23/final-project-code-01-vyom)
+Project Link: [https://github.com/01-vyom/Evolving-Survey-on-Foundational-Language-Models](https://github.com/01-vyom/Evolving-Survey-on-Foundational-Language-Models)
 
 
 ## Acknowledgements
