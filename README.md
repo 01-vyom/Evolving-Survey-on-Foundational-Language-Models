@@ -190,7 +190,7 @@ Contributions are what make the open source community such an amazing place to b
 
 ## Authors
 
-[Vyom Pathak](https://01-vyom.github.io/) - [@stancosmos01](https://twitter.com/stancosmos01) - angerstick3@gmail.com
+[Vyom Pathak](https://01-vyom.github.io/) - [@vyomp01](https://twitter.com/vyomp01) - angerstick3@gmail.com
 
 Project Link: [https://github.com/01-vyom/Evolving-Survey-on-Foundational-Language-Models](https://github.com/01-vyom/Evolving-Survey-on-Foundational-Language-Models)
 
